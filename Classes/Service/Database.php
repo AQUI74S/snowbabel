@@ -270,7 +270,8 @@ class Database {
 			array(
 				'tstamp' => time(),
 				'crdate' => time(),
-				'be_users_uid' => $BeUserId
+				'be_users_uid' => $BeUserId,
+				'SelectedLanguages' => '0',
 			)
 		);
 
